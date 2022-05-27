@@ -6,8 +6,8 @@ let btn = document.getElementById("ado");
 
 
 var hr = 0;
-var min = 2;
-var sec = 58;
+var min = 0;
+var sec = 0;
 var stoptime = true;
 var time=3;
 var time2=4;
