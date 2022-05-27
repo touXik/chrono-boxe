@@ -71,7 +71,7 @@ function timerCycle() {
       hr = '0' + hr;
     }
 
-    round.innerHTML = ' Nombre de Round :' + nb_round;
+    round.innerHTML = '-' + nb_round + '-';
     timer.innerHTML = hr + ':' + min + ':' + sec;
 
     setTimeout("timerCycle()", 1000);

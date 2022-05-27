@@ -61,32 +61,41 @@ body {
     font-size: 1.5em;
 }
 
-@media (max-width:450px){
-    #stopwatch {
-        font-size: 4.5em;
-        position: absolute;
-        top: 43%;
-        left: 41%;
-        transform: translate(-50%, -55%);
-    }
-    #round{
-        position: absolute;
-        left: 38%;
-        top: 29%;
-        transform: translate(-50%,-50%);
-        font-size: 1.5em;
-    }
-    #buttons {
-        position: absolute;
-        top: 61%;
-        left: 35.4%;
-        transform: translate(-51.6%, -45%);
-    }
-  
-    .btn_c button {
-        width: 179px;
-        height: 67px;
-      
-    }    
 
-}
+    @media (max-width:450px){
+        #stopwatch {
+            font-size: 4.5em;
+            position: absolute;
+            top: 43%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+        }
+        #round{
+            position: absolute;
+            left: 50%;
+            top: 24%;
+            transform: translate(-50%,-50%);
+            font-size: 5em;
+        }
+        #buttons {
+            position: absolute;
+            top: 61%;
+            left: 44.4%;
+            transform: translate(-50%, -50%);
+        }
+      
+        .btn_c button {
+            width: 179px;
+            height: 67px;
+          
+        }    
+      
+        .txt{
+            position: absolute;
+            font-size: 2em;
+            top: 15%;
+            left: 65.4%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+    }
