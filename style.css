@@ -61,3 +61,32 @@ body {
     font-size: 1.5em;
 }
 
+@media (max-width:450px){
+    #stopwatch {
+        font-size: 4.5em;
+        position: absolute;
+        top: 43%;
+        left: 41%;
+        transform: translate(-50%, -55%);
+    }
+    #round{
+        position: absolute;
+        left: 38%;
+        top: 29%;
+        transform: translate(-50%,-50%);
+        font-size: 1.5em;
+    }
+    #buttons {
+        position: absolute;
+        top: 61%;
+        left: 35.4%;
+        transform: translate(-51.6%, -45%);
+    }
+  
+    .btn_c button {
+        width: 179px;
+        height: 67px;
+      
+    }    
+
+}
